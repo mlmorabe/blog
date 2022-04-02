@@ -1,6 +1,12 @@
 # blog page sections
-- name: category1
-  href: '/category1/'
+- name: about
+  href: 'about.html'
 
-- name: category2
-  href: '/category2/'
+- name: book thoughts
+  href: '/books/'
+
+- name: game thoughts
+  href: '/games/'
+
+- name: general
+  href: '/general/'
