@@ -1,6 +1,6 @@
 # blog page sections
 - name: about
-  href: 'about.html'
+  href: '/about.html'
 
 - name: book thoughts
   href: '/books/'
