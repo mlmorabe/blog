@@ -11,7 +11,7 @@ layout: default
       </div>
       <div class="meta">
         <time class="published" datetime="{{ post.date }}">{{ post.date | date: "%d %b %Y %R" }}</time>
-        <a href="{{ site.author.cv }}" class="author"><span class="name">M.{{ site.author.last_name }}</span><img src="{{ site.author.avatar | prepend: site.baseurl }}" alt="MMorabe" /></a>
+        <a href="/about.html" class="author"><span class="name">M.{{ site.author.last_name }}</span><img src="{{ site.author.avatar | prepend: site.baseurl }}" alt="MMorabe" /></a>
       </div>
     </header>
     {% if post.image %}
