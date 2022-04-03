@@ -3,6 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Don't look too hard, this is all under construction!
 baseurl:  # the subpath of your site, e.g. /blog
 url: http://yayforbooks.randomlyrecursive.com # the base hostname & protocol for your site, e.g. http://example.com
+fullurl: http://yayforbooks.randomlyrecursive.com
 
 
 author:
@@ -21,4 +22,5 @@ markdown: kramdown
 
 permalink: /:categories/:year/:title.html
 
-
+plugins:
+  - jekyll-feed

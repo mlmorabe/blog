@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Lorem"
-date:   2017-06-04 00:00
-category: category1
-icon: git
-keywords: tag1, tag2
-image: 1.png
-preview: 0
+title:  Welcome!
+date:   2022-04-02 15:21
+category: general
+icon: flower
+keywords: update
+image:
+preview: 1
 ---
-
