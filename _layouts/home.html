@@ -18,7 +18,7 @@ layout: default
       <a href="{{ post.url | relative_url }}" class="image featured"><img src="/post-img/{{ post.category }}/{{ post.image }}" alt="{{ post.title }}"></a>
     {% endif %}
     {% if post.preview != 0 %}
-      <p>{{ post.content | truncatewords: 35 }}</p>
+      <p>{{ post.content | truncatewords: 15 }}</p>
     {% endif %}
     <footer> 
       <ul class="actions">
