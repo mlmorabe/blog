@@ -1,7 +1,6 @@
 title: BookYearning
 description: > # this means to ignore newlines until "baseurl:"
-  (don't look too hard, this is all under construction!)
-  A place for my thoughts on books, games, and whatever else strikes my fancy
+  (don't look too hard, this is all under construction!) A place for my thoughts on books, games, and whatever else strikes my fancy
 baseurl:  # the subpath of your site, e.g. /blog
 url: http://yayforbooks.randomlyrecursive.com # the base hostname & protocol for your site, e.g. http://example.com
 fullurl: http://yayforbooks.randomlyrecursive.com
@@ -25,3 +24,9 @@ permalink: /:categories/:year/:title.html
 
 plugins:
   - jekyll-feed
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: bookyearning

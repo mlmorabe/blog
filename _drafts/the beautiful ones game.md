@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  Welcome!
+title:  The Beautiful Ones
 date:   2022-04-02 15:21
 category: general
-icon: flower
+icon: books
 keywords: update
 image:
 preview: 1
-comments:
 ---
