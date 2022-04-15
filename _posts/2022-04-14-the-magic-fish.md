@@ -3,7 +3,7 @@ layout: post
 title:  The Magic Fish (and all my feelings)
 date:   2022-04-14 23:05
 category: books
-icon: book
+icon: book-orange
 keywords: books, musings
 image: magic_fish_prev.jpg
 preview: 1
