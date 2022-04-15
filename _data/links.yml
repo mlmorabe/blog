@@ -11,8 +11,9 @@
 - name: games
   href: '/games/'
 
+- name: general
+  href: '/general/'
+
 - name: miscellany
   href: '/misc/'
 
-- name: general
-  href: '/general/'

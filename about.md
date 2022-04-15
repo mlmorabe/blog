@@ -4,7 +4,7 @@ title: About
 ---
 <h1>About Me</h1>
 
-![image](images/itme.jpg){: style="float: right; max-width: 20%; padding: 0 0 25px 25px"}
+![image](images/itme.jpg){: style="float: right; width: 200px; padding: 0 0 25px 25px"}
 
 Hello! I'm Maria (she/her). I'm a queer ~.75 gen (or whatever it's called when you immigrate as a baby, spend too many years assimilating and now get to spend more years unlearning many things) Filipino-American currently living in the Midwest with my partner and our cat, Lotus. I studied mathematical computational biology in my undergraduate years before pursuing a PhD in Microbiology. Currently, I do some remote research support involving antibiotic resistance genes, but my love of marine microbes, fundamental microbiology, and ocean biochemistry still lingers.
 

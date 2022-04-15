@@ -7,9 +7,11 @@ icon: book-orange
 keywords: booklist
 image:
 preview: 1
+excerpt_separator: <!--more-->
 ---
 
 Ages ago in grad school, I toyed with the idea of writing a "Best of [x] year" list for myself. Unfortunately, as many things in grad school go, this was an idea that seemed grand for a minute until faced with the reality of time management and motivation. For the purpose of this post, though, I thought I'd look at what I was feeling strong feelings about in 2019.
+<!--more-->
 
 ```
 Books of the year (those that have stuck with me):
