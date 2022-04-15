@@ -119,12 +119,53 @@
 		top: -0.5em;
 	}
 
+	@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
 	blockquote {
-		border-left: solid 4px _palette(border);
-		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+		font-weight: 100;
+		font-family:'Special Elite', cursive;
+		background: #fffdf5;
+		color: #3f3f5a;
+		font-size: 2rem;
+		max-width: 600px;
+		line-height: 1.4;
+		position: relative;
+		left: 15%;
+		margin: 0;
+		padding: .5rem;
+		
 	}
+	
+	blockquote:before,
+	blockquote:after {
+		position: absolute;
+		color: #f1efe6;
+		font-size: 8rem;
+		width: 4rem;
+		height: 4rem;
+	}
+	
+	blockquote:before {
+		content: '“';
+		left: -2rem;
+		top: -2rem;
+	}
+	
+	blockquote:after {
+		content: '”';
+		right: -2rem;
+		bottom: 4rem;
+	}
+	
+	cite {
+		line-height: 2;
+		position: relative;
+		left: 25%;
+		font-family: 'Special Elite', cursive;
+		background: #fffdf5;
+		color: #3f3f5a;
+	}
+
 
 	code {
 		background: _palette(border-bg);

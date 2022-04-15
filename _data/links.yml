@@ -5,11 +5,14 @@
 - name: things i've done
   href: '/works.html'
 
-- name: book thoughts
+- name: books
   href: '/books/'
 
-- name: game thoughts
+- name: games
   href: '/games/'
+
+- name: other media
+  href: '/misc/'
 
 - name: general
   href: '/general/'
