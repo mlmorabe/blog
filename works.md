@@ -4,8 +4,8 @@ title: Things I've Done
 ---
 <h1>Things I've Done!</h1>
 
-![image](images/flowerdice.jpg){: style="float: left; max-width: 20%; padding: 0 50px 0 0"}
-* My game design work is found at my [itch.io](http://yayforbooks.itch.io) page. Right now my supplemental Skin for Monsterhearts 2, [the Swan](https://yayforbooks.itch.io/the-swan-mh2-skin), is available.
+![a picture of some dice I made](images/flowerdice.jpg){: style="float: left; max-width: 20%; padding: 0 50px 0 0"}
+* My game design work is found at my [itch.io](http://yayforbooks.itch.io) page. Right now my supplemental Skin for Monsterhearts 2, [the Swan](https://yayforbooks.itch.io/the-swan-mh2-skin), is available. ![a picture of a game supplement](images/swan_time.jpg){: style="float: right; max-width: 25%; padding: 50px 50px 0 50px"}
 * I turned a playthrough of [Anamnesis](https://blinkingbirchgames.itch.io/anamnesis) by [Blinking Birch Games](https://itch.io/profile/blinkingbirchgames) into [a twine game](/Genesis_Enhancement_Protocol__Stage_1.html)! This playthrough was inspired by a character I played in a run of a Mecha hack of the game [Good Society](https://storybrewersroleplaying.com/good-society/?v=7516fd43adaa).
 * There are some videos (and playthroughs I should finish one day...) on my [YouTube channel](https://www.youtube.com/user/yayforbooks).
 * Elsewhere on YouTube, I've played a lot of games through the [Gauntlet](https://www.gauntlet-rpg.com/) and a number of them were recorded and posted on the [Gauntlet's YouTube account](https://www.youtube.com/c/TheGauntletRPG/featured)! This is where I started playing games online and I'm very lucky to have played in many great games with the people there. Here are a few of my most memorable games that I still think about months (and years, I suppose) later:

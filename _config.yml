@@ -24,9 +24,38 @@ permalink: /:categories/:year/:title.html
 
 plugins:
   - jekyll-feed
+  - jekyll-gallery-generator
+
 
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname: bookyearning
+
+gallery:
+  dir: photos               # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Photos"           # Title for gallery index page
+  title_prefix: "Photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 400                  # max width of thumbnails (in pixels)
+    y: 400                  # max height of thumbnails (in pixels)
+  # The following options are for individual galleries.
+  galleries:
+    creations:
+      name: "things i've made"
+      info:
+        desc: "sometimes I make things"
+    life:
+      info:
+        desc: "slices of life" # Info fields can be used in custom templates.
+    lotus:
+      info:
+        desc: "just the best cat"
+    film:
+      name: "film photography"
+      info:
+        desc: "film photography experiments"

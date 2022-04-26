@@ -7,12 +7,13 @@ icon: book-orange
 keywords: books, musings
 image: magic_fish_prev.jpg
 preview: 1
+excerpt_separator: <!--more-->
 ---
 *The Magic Fish* by Trung Le Nguyen (also known as [Trungles](http://www.trungles.com/)) is a graphic novel about a young boy finding words between worlds, life between cultures, and the power of stories. Tiến, the main character, is trying to find the words to come out as gay to his parents, Vietnamese immigrants. His mother Hiến is far away from her own mother, having come to a new country. The graphic novel intertwines the fairy tales they read together in English with the tales of their own lives as they find the words to come together.
 
 <!--more-->
 
-![image](http://yayforbooks.randomlyrecursive.com/images/magic_fish_cover.jpg){: style="float: right; max-width: 200px; padding: 0 0 25px 25px"}
+![The Magic Fish cover picture](http://yayforbooks.randomlyrecursive.com/images/magic_fish_cover.jpg){: style="float: right; max-width: 200px; padding: 0 0 25px 25px"}
 
 I had been meaning to read this book forever, but it was only recently that I finally picked it from my library. I'd constantly heard great things about it from both random people on the internet and people I trust. All those things were well-merited! I came to this book looking for a reflection of myself, words of guidance, and something like a feeling of not being alone and I think I found all of those things. 
 

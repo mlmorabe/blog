@@ -5,6 +5,9 @@
 - name: things i've done
   href: '/works.html'
 
+- name: photos
+  href: '/photos/'
+
 - name: books
   href: '/books/'
 

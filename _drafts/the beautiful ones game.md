@@ -3,7 +3,7 @@ layout: post
 title:  The Beautiful Ones
 date:   2022-04-02 15:21
 categories: books
-icon: book
+icon: book-orange
 keywords: books, games, musings
 image:
 preview: 1

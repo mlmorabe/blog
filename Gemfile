@@ -5,3 +5,4 @@ gem "jekyll", "~> 4.2.2"
 # gem "rails"
 
 gem 'jekyll-feed'
+gem 'jekyll-gallery-generator'

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<style TYPE="text/css">
+.gallery-wrapper {
+  padding: 1em 0 4em 0; 
+  width: 35 em;
+  text-align: center;
+  display: inline-block;
+  margin: 1em;
+  position: relative;
+}
+.gallery-best-image{
+  max-height: 20em;
+  max-width: 20em;
+}
+</style>
+{% for gallery in page.galleries %}
+<div class="gallery-wrapper">
+    <a href="{{ gallery['gallery'] }}">
+        <img class="gallery-best-image" src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+    </a>
+    <h3><a href="{{ gallery['gallery'] }}">{{ gallery["name"] }}</a></h3>
+    {{ gallery["images"] | size }} image{% if gallery["images"].size != 1 %}s{% endif %} <br> {% if gallery.info["desc"] %}
+    {{ gallery.info["desc"] }}{% endif %}
+ 
+</div>
+{% endfor %}
