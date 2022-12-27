@@ -9,9 +9,9 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 14pt;
+		font-size: 16pt;
 		font-weight: _font(weight);
-		line-height: 1.75;
+		line-height: 2;
 
 		@include breakpoint(xlarge) {
 			font-size: 12pt;
@@ -124,8 +124,8 @@
 	blockquote {
 		font-weight: 100;
 		font-family:'Special Elite', cursive;
-		background: #232927;
-		color: #9AACA1;
+		background: _palette(bg);
+		color: _palette(fg-bold);
 		font-size: 2rem;
 		max-width: 600px;
 		line-height: 1.4;
@@ -139,7 +139,7 @@
 	blockquote:before,
 	blockquote:after {
 		position: absolute;
-		color: #EAD6C7;
+		color: _palette(fg-light);
 		font-size: 8rem;
 		width: 4rem;
 		height: 4rem;
@@ -147,14 +147,14 @@
 	
 	blockquote:before {
 		content: '“';
-		left: -2rem;
+		left: -4rem;
 		top: -2rem;
 	}
 	
 	blockquote:after {
 		content: '”';
 		right: -2rem;
-		bottom: 4rem;
+		bottom:2rem;
 	}
 	
 	cite {
@@ -162,7 +162,7 @@
 		position: relative;
 		left: 25%;
 		font-family: 'Special Elite', cursive;
-		background: #232927;
+		background: _palette(bg);
 		color: #9AACA1;
 	}
 

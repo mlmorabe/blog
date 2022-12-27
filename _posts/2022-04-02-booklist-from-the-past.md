@@ -3,7 +3,7 @@ layout: post
 title:  A Book List from Past Me!
 date:   2022-04-02 21:14
 category: books
-icon: book-orange
+icon: book
 keywords: booklist
 image:
 preview: 1

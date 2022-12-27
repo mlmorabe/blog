@@ -12,6 +12,30 @@
 
   {% capture blogtitle %}{{page.title}}{%endcapture%}
   <title>{% if page.title %}{{ page.title }}{% else %}Home | {{ site.title }}{% endif %}</title>
+
+  <!-- Twitter cards -->
+  <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+  {% if page.title %}
+  <meta name="twitter:title"   content="{{ page.title }}">
+  {% else %}
+  <meta name="twitter:title"   content="{{ site.title }}">
+  {% endif %}
+
+
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.image %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.fullurl }}/post-img/{{ page.category }}/{{ page.image }}">
+  {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.fullurl}}/images/lotus.png">
+  {% endif %}
+  <!-- end of Twitter cards -->
   
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
